@@ -5,11 +5,11 @@ public class Planeta {
     private double masa;
     public static int contador = 0;
 
-    Planeta() {
+    public Planeta() {
         this("Tierra", 5.972);
     }
 
-    Planeta(String pNombre, double pMasa)
+    public Planeta(String pNombre, double pMasa)
     {
         this.nombre = pNombre;
         this.masa = pMasa;

@@ -6,7 +6,7 @@ public class Punto {
     private double y;
 
     
-    Punto(double pX, double pY){
+    public Punto(double pX, double pY){
         this.x = pX;
         this.y = pY;
     }
