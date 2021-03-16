@@ -3,7 +3,7 @@ package TalleresJava.Taller07;
 import java.util.Scanner;
 
 /*
-*Teniendo <div class='name'>NOMBRE</div><div class='lastname'>APELLIDO</div>
+*Teniendo <div class='name'>NOMBRE</div><div class='lastname'>APELLIDO</div><div class='lastname'>A12</div><div class='lastname'>PJ68</div>
 *Cree un programa que extraiga la información de NOMBRE y APELLIDO y los muestre por pantalla concatenados
 */
 
