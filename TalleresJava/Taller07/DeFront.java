@@ -19,7 +19,7 @@ public class DeFront {
             string2 += "b";
         }
 
-        string2 += string.substring(2, string.length());
+        if(string.length()>1) string2 += string.substring(2, string.length());
 
         System.out.println(string2);
 
