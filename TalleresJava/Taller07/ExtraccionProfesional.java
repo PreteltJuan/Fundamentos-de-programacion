@@ -15,10 +15,12 @@ public class ExtraccionProfesional{
         String cadena = in.nextLine();
         String nombreCompleto = "";
         
+        //recuperamos el primer campo
         int indexInicioNombre = cadena.indexOf("'>")+2;
         int indexFinalNombre = cadena.indexOf("<", indexInicioNombre);
         nombreCompleto += cadena.substring(indexInicioNombre, indexFinalNombre );
         
+        //recuperamos el segundo campo
         int indexInicioApellido = cadena.indexOf("'>", indexFinalNombre) +2;
         int indexFinalApellido = cadena.indexOf("<", indexInicioApellido);
         nombreCompleto += cadena.substring(indexInicioApellido, indexFinalApellido );
