@@ -26,9 +26,10 @@ public class Trabajo
 				salario *= 1.295;
 				break;
 
-			case 6, 7: 
+			case 6:
+			case 7: 
 				salario *= 1.75;
-
+			
 	
 		}
 
